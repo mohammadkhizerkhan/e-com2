@@ -131,6 +131,7 @@
 
 .games:hover{
     background-image:url(/images/games.jpg);
+    box-shadow: var(--shadow-cart);
 }
 
 .console{
@@ -141,6 +142,7 @@
 }
 .console:hover{
     background-image: url(/images/console.jpg);
+    box-shadow: var(--shadow-cart);
 }
 .accessories{
     grid-area: accessories;
@@ -150,6 +152,7 @@
 }
 .accessories:hover{
     background-image: url(/images/accessories.jpg);
+    box-shadow: var(--shadow-cart);
 }
 
 
@@ -170,9 +173,10 @@
 
 .social-link:hover{
     border: 2px solid gray;
-    box-shadow: var(--shadow);
+    box-shadow: var(--shadow-cart);
 }
 
 .social-icon{
     font-size: 4rem;
+    color: var(--text-color);
 }
