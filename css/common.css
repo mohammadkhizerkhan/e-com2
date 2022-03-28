@@ -37,3 +37,10 @@ body{
     font-size: 1.5rem;
 }
 
+.card{
+    width: 80%;
+    color: var(--text-color);
+    background-color: var(--card-bg-color);
+    margin-bottom: 1rem;
+}
+

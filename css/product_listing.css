@@ -1,5 +1,5 @@
 @import url(/css/common.css);
-
+@import url(/css/cart.css);
 
 .navbar-landing{
     position: fixed;
@@ -99,6 +99,11 @@
 .card-product{
     width: 100%;
     box-shadow: var(--shadow-product);
+    /* border: 2px solid #1c285e; */
+}
+.card-product:hover{
+    transform: scale(1.02);
+
 }
 .card-product-body{
     flex-direction: column;
